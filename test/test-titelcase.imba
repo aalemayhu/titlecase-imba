@@ -2,7 +2,7 @@ const test = require('ava')
 const mod = require('../dist/mod.js')
 
 const compare = do |t, expected, input|
-	let actual = mod:titelcase(input)
+	let actual = mod:ap(input)
 	console.log actual,"==",expected
 	t.true(actual == expected)
 

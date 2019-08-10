@@ -3,7 +3,7 @@ def capitalize str
 	const first = str.split('')[0].toUpperCase()
 	"{first}{str.slice(1)}"
 
-export def titelcase input
+export def ap input
 	let special = [
 		'a', 'an', 'and',
 		'at', 'but', 'by',
