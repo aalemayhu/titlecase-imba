@@ -15,5 +15,10 @@
   "devDependencies": {
     "ava": "^2.2.0",
     "imba": "^1.4.4"
-  }
+  },
+  "keywords": [
+    "imba",
+    "casing",
+    "ap style"
+  ]
 }
