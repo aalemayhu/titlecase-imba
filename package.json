@@ -1,0 +1,9 @@
+{
+  "name": "titlecase-imba",
+  "version": "0.0.0",
+  "description": "a module to change casing of a string",
+  "main": "dist/index.js",
+  "repository": "git@github.com:scanf/titlecase-imba.git",
+  "author": "Alexander Alemayhu <alexander@alemayhu.com>",
+  "license": "MIT"
+}
