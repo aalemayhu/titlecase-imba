@@ -8,9 +8,9 @@
   "license": "MIT",
   "dependencies": {},
   "scripts": {
-    "build": "imbac src/titelcase.imba -o dist/",
-    "dev": "imba src/titelcase.imba",
-    "test": "imbac test/test-titelcase.imba && ava test/test-titelcase.js"
+    "build": "imbac src/mod.imba -o dist/",
+    "dev": "imba src/mod.imba",
+    "test": "imbac src/mod.imba -o dist/ && imbac test/test-titelcase.imba && ava --verbose test/test-titelcase.js"
   },
   "devDependencies": {
     "ava": "^2.2.0",
