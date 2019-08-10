@@ -4,7 +4,9 @@
 
 ## Installation
 
-TODO: add this
+```bash
+yarn add titlecase-imba # npm i titlecase-imba
+```
 
 ## Usage
 
