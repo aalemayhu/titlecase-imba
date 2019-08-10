@@ -6,15 +6,14 @@
   "repository": "git@github.com:scanf/titlecase-imba.git",
   "author": "Alexander Alemayhu <alexander@alemayhu.com>",
   "license": "MIT",
-  "dependencies": {
-    "imba": "^1.4.4"
-  },
+  "dependencies": {},
   "scripts": {
     "build": "imbac src/titelcase.imba -o dist/",
     "dev": "imba src/titelcase.imba",
     "test": "imbac test/test-titelcase.imba && ava test/test-titelcase.js"
   },
   "devDependencies": {
-    "ava": "^2.2.0"
+    "ava": "^2.2.0",
+    "imba": "^1.4.4"
   }
 }
