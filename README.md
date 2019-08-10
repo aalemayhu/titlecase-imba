@@ -14,7 +14,7 @@ yarn add titlecase-imba # npm i titlecase-imba
 const titlecase = require('titlecase-imba');
 console.log(titlecase.ap('this is the title'))
 // Output: This Is the Title
-``
+```
 
 
 [0]: https://www.bkacontent.com/how-to-correctly-use-apa-style-title-case/
