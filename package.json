@@ -8,5 +8,9 @@
   "license": "MIT",
   "dependencies": {
     "imba": "^1.4.4"
+  },
+  "scripts": {
+    "build": "imbac src/titelcase.imba -o dist/",
+    "dev": "imba src/titelcase.imba"
   }
 }
