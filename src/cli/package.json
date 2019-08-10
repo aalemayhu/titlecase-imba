@@ -1,7 +1,6 @@
 {
-  "name": "titlecase",
+  "name": "@scanf/titlecase",
   "version": "0.0.1",
-  "main": "index.js",
   "author": "Alexander Alemayhu <alexander@alemayhu.com>",
   "license": "MIT",
   "dependencies": {
