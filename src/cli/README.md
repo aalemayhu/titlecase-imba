@@ -5,7 +5,7 @@ Use [AP style][0] casing.
 ## Installation
 
 ```bash
-yarn add global @scanf/titelcase # npm install -g @scanf/titelcase
+yarn add global titelcase-imba-cli # npm install -g titelcase-imba-cli
 ```
 
 ## Usage
