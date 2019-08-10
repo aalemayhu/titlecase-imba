@@ -4,10 +4,11 @@ def capitalize str
 	"{first}{str.slice(1)}"
 
 export def titelcase input
-	let special = ['a']
-	let cased =input.split(' ').map do |element|
-		if !special.includes(element)
-			capitalize(element)
+	let special = ['a', 'for', 'to', 'an']
+	let cased = input.split(' ').map do |element|
+		let mangle = element.toLowerCase()
+		if !special.includes(mangle)
+			capitalize(mangle)
 		else
-			element
+			mangle
 	cased.join(' ')
