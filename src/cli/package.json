@@ -7,7 +7,8 @@
     "titlecase-imba": "^0.2.0"
   },
   "scripts": {
-    "build": "imbac main.imba -o dist && add-shebang"
+    "build": "imbac main.imba -o dist && add-shebang",
+    "publish": "npm publish --access public"
   },
   "bin": {
     "ap": "dist/main.js"
