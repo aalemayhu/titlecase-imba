@@ -11,7 +11,7 @@ yarn add titlecase-imba # npm i titlecase-imba
 ## Usage
 
 ```js
-const titlecase = require('titlecase-imba');
+const titlecase = require('titlecase-imba')
 console.log(titlecase.ap('this is the title'))
 // Output: This Is the Title
 ```
