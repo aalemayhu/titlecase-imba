@@ -17,5 +17,5 @@ export def ap input
 		if !special.includes(mangle)
 			capitalize(mangle)
 		else
-			mangle
+			element
 	cased.join(' ')

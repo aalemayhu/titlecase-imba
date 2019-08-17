@@ -9,6 +9,6 @@ const compare = do |t, expected, input|
 
 const testTitle = do |t|
 	compare(t, 'This Is a Title', 'this is a title')
-	compare(t, 'This for an Example', 'This FOR an EXAMPLE')
+	compare(t, 'The Current Plan', 'The current plan')
 
 test 'title', testTitle
