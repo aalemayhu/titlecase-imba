@@ -2,10 +2,16 @@
 
 [Imba][i] module to change casing using [AP style][0].
 
-## Installation
+## Installation as module
 
 ```bash
 yarn add titlecase-imba # npm i titlecase-imba
+```
+
+# Installation as CLI
+
+```
+yarn global add titelcase-imba-cli # npm install -g titelcase-imba-cli
 ```
 
 ## Usage
